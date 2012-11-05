@@ -47,6 +47,10 @@ For more information or to follow the project, check out the [project page](http
 
 == Changelog ==
 
+= 1.1 =
+* Updating plugin URL
+* Removing a TODO in the code
+
 = 1.0 =
 * Initial release
 
