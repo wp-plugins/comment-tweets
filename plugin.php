@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Comment Tweets
-Plugin URI: http://tommcfarlin.com/wordpress-comment-tweets/
+Plugin URI: http://tommcfarlin.com/comment-tweets-for-wordpress/
 Description: Comment Tweets gives you the ability to take the URL of a tweet and add it to the conversation on your blog.
-Version: 1.0
+Version: 1.1
 Author: Tom McFarlin
 Author URI: http://tommcfarlin.com
 Author Email: tom@tommcfarlin.com
@@ -314,7 +314,6 @@ class CommentTweets {
 				// ...append it to the Tweet HTML string.
 				$tweet_html .= '<blockquote class="twitter-tweet">';
 					$tweet_html .= '<p>Search API will now always return "real" Twitter user IDs. The with_twitter_user_id parameter is no longer necessary. An era has ended. ^TS</p>&mdash; Twitter API (@twitterapi)';
-						//<!-- TODO fix date -->
 					$tweet_html .= '<a href="' . $meta_value[0] . '" data-datetime="2011-11-07T20:21:07+00:00">November7, 2011</a>';
 				$tweet_html .= '</blockquote>';
 			

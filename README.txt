@@ -4,7 +4,7 @@ Donate link: http://tommcfarlin.com/donate/
 Tags: comments, tweets
 Requires at least: 3.4.1
 Tested up to: 3.4.1
-Stable tag: 1.5
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,12 @@ For more information or to follow the project, check out the [project page](http
 1. Upload the `comment-tweets` directory to your `wp-content/plugins` directory
 1. Activate the plugin on the WordPress Plugins dashboard
 
+== Frequently Asked Questions ==
+
+= What happens to my tweets when I delete this plugin? =
+
+In order to keep the database clean, all Tweets will be deleted if this plugin is deactivated. If you'd like to see a feature for maintaining the tweets or keeping the tweets around, feel free to [contact me](http://tommcfarlin.com/contact/).
+
 == Screenshots ==
 
 1. The default tweet form in the Post Editor Dashboard
@@ -46,6 +52,11 @@ For more information or to follow the project, check out the [project page](http
 3. Displaying multiple tweets to readers
 
 == Changelog ==
+
+= 1.1 =
+* Updating plugin URL
+* Removing a TODO in the code
+* Updating the README version and FAQ
 
 = 1.0 =
 * Initial release
