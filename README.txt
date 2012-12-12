@@ -3,8 +3,8 @@ Contributors: tommcfarlin
 Donate link: http://tommcfarlin.com/donate/
 Tags: comments, tweets
 Requires at least: 3.4.1
-Tested up to: 3.4.1
-Stable tag: 1.1
+Tested up to: 3.5
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,11 @@ In order to keep the database clean, all Tweets will be deleted if this plugin i
 3. Displaying multiple tweets to readers
 
 == Changelog ==
+
+= 1.2 =
+* Minor style update to the 'Add New Tweet' button
+* Verifying compatibility with WordPress 3.5
+* No longer deleting tweets on deactivation
 
 = 1.1 =
 * Updating plugin URL

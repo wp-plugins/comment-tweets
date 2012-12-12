@@ -3,7 +3,7 @@
 Plugin Name: Comment Tweets
 Plugin URI: http://tommcfarlin.com/comment-tweets-for-wordpress/
 Description: Comment Tweets gives you the ability to take the URL of a tweet and add it to the conversation on your blog.
-Version: 1.1
+Version: 1.2
 Author: Tom McFarlin
 Author URI: http://tommcfarlin.com
 Author Email: tom@tommcfarlin.com
@@ -42,8 +42,10 @@ class CommentTweets {
 		// Setup Localization
 		load_plugin_textdomain( 'comment-tweets', false, dirname( plugin_basename( __FILE__ ) ) . '/lang' );
 		
-		// Setup the deactivation function for clearing our Tweets when the plugin is deactivated
-		register_deactivation_hook( __FILE__, array( $this, 'deactivate' ) );
+		// NOTE:
+		// - 12 December 2012: No longer deleting Tweets on deactivation.
+		// - Will be adding functionality to manually do this in a future version.
+		//register_deactivation_hook( __FILE__, array( $this, 'deactivate' ) );
 		
 		// Register admin stylesheets and JavaScript
 		add_action( 'admin_print_styles', array( $this, 'register_admin_styles' ) );
