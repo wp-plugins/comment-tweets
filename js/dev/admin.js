@@ -7,8 +7,7 @@
 
 			// Find the most recent input in the Comment Tweet container
 			$lastTweet = $('#tweet-url-container').children('input:last');
-			console.log($lastTweet);
-			
+
 			// Read the last ID
 			aLastTweetId = $lastTweet.attr('id').split('_');
 			iLastTweetId = aLastTweetId[aLastTweetId.length - 1];
@@ -20,7 +19,7 @@
 				.attr('name', 'tweet_url[]')
 				.attr('class', 'tweet_url')
 				.attr('placeholder', $lastTweet.attr('placeholder'));
-			
+
 			// And append it to the container
 			$('#tweet-url-container').append($newTweetUrl);
 

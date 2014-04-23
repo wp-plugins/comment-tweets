@@ -8,13 +8,13 @@
  * @author    Tom McFarlin <tom@tommcfarlin.com>
  * @license   GPL-2.0+
  * @link      http://tommcfarlin.com
- * @copyright 2012 - 2013 Tom McFarlin
+ * @copyright 2012 - 2014 Tom McFarlin
  *
  * @wordpress-plugin
  * Plugin Name: Comment Tweets
  * Plugin URI:  http://tommcfarlin.com/comment-tweets-for-wordpress/
  * Description: Comment Tweets gives you the ability to take the URL of a tweet and add it to the conversation on your blog.
- * Version:     2.0.0
+ * Version:     2.1.0
  * Author:      Tom McFarlin
  * Author URI:  http://tommcfarlin.com
  * Text Domain: comment-tweets
