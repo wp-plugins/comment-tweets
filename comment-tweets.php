@@ -8,7 +8,7 @@
  * @author    Tom McFarlin <tom@tommcfarlin.com>
  * @license   GPL-2.0+
  * @link      http://tommcfarlin.com
- * @copyright 2012 - 2015 Tom McFarlin
+ * @copyright 2011 - 2015 Tom McFarlin
  *
  * @wordpress-plugin
  * Plugin Name: Comment Tweets

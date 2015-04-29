@@ -1,10 +1,10 @@
 === Comment Tweets ===
 Contributors: tommcfarlin
-Donate link: http://tommcfarlin.com/donate/
+Donate link: https://tommcfarlin.com/donate/
 Tags: comments, tweets
 Requires at least: 3.4.1
-Tested up to: 4.1
-Stable tag: 2.2.0
+Tested up to: 4.2.1
+Stable tag: 2.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Comment Tweets gives you the ability to take the URL of a tweet and add it to th
 
 == Description ==
 
-Occassionally, readers will respond to your posts via tweets which is awesome, but when this happens, it's tough log the conversation between post comments and  the various tweets. This plugin aims to mitigate that problem!
+Occasionally, readers will respond to your posts via tweets which is awesome, but when this happens, it's tough log the conversation between post comments and  the various tweets. This plugin aims to mitigate that problem!
 
 Comment Tweets...
 
@@ -52,6 +52,11 @@ In order to keep the database clean, all Tweets will be deleted if this plugin i
 3. Displaying multiple tweets to readers
 
 == Changelog ==
+
+= 2.3.0 =
+
+* WordPress 4.2.1 compatibility
+* Updating copyright dates
 
 = 2.2.0 =
 * Verifying WordPress 4.1 compatibility
